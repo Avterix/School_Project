@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avterix - Fullstack Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- SPLASH -->
+<div id="splash" class="splash">
+
+  <div class="splash-center">
+  <svg class="splash-svg-new" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width: 160px; height: 160px; margin-bottom: 30px; overflow: visible;">
+  <path class="logo-part part-hook" 
+        d="M 60 60 H 160 V 140 L 130 170 V 90 H 30 L 60 60 Z" 
+        fill="none" stroke="#ffffff" stroke-width="2" />
+  
+  <path class="logo-part part-diag" 
+        d="M 20 160 L 80 100 H 120 L 60 160 Z" 
+        fill="none" stroke="#ffffff" stroke-width="2" />
+</svg>
+   
+  <h1 class="splash-title" data-text="AVTERIX"></h1>
+  <p class="splash-sub"></p>
+</div>
+
+    <div class="splash-status">
+    <div class="splash-track"><div class="splash-fill"></div></div>
+    <span class="splash-pct">0%</span>
+  </div>
+</div>
+
+  <!-- HUD lines — Arkham style -->
+  <div style="position:absolute;top:28px;left:50%;transform:translateX(-50%);width:200px;height:1px;background:rgba(255,255,255,.08);"></div>
+  <div style="position:absolute;bottom:28px;left:50%;transform:translateX(-50%);width:200px;height:1px;background:rgba(255,255,255,.08);"></div>
+
+</div>
+
+    <section class="home-section" id="home">
+    <header class="navbar">
+            <div class="nav-inner flex-row flex-between align-center">
+                <div class="brand-logo flex-row align-center">
+                    <i class="fa-solid fa-cubes logo-icon"></i>
+                    <span class="brand-name">Avterix</span>
+                </div>
+                <nav class="nav-links desktop-only">
+                    <ul class="flex-row">
+                        <li class="active"><a href="#home">Home <i class="fa-solid fa-chevron-down small-icon"></i></a></li>
+                        <li><a href="#product">Product <i class="fa-solid fa-chevron-down small-icon"></i></a></li>                      
+                        <li><a href="#project">Project</a></li>
+			<li><a href="#brands">Partners</a></li>
+			<li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+
+                <div class="nav-right flex-row align-center">
+                    <div class="time-widget desktop-only">
+                        <span class="timezone-label">Timezone</span>
+                        <div class="time-display" id="live-time">6:30pm • 23 June, 2024</div>
+                    </div>
+                    <button class="menu-toggle-btn flex-row align-center glass-btn">
+                        <i class="fa-solid fa-bars"></i>
+                        <span>MENU</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+    <div class="background-massive-text" aria-hidden="true">avterix</div>
+
+    <div class="hero-image-wrapper">
+        <img src="cover/ship.png" alt="Avterix Silhouette" class="hero-main-img">
+    </div>
+
+    <div class="app-container">
+
+        <main class="hero-grid">
+            
+            <div class="hero-content-left">
+                <div class="subtitle flex-row align-center slide-up-1">
+                    <span class="vertical-line"></span>
+                    <p>Fullstack Agency</p>
+                </div>
+                
+                <h1 class="main-headline slide-up-2">
+                    We can design<br>
+                    highly precise<br>
+                    digital <span id="dynamic-word" class="highlight-text">future...</span>
+                </h1>
+
+                <div class="ratings flex-row align-center slide-up-3">
+                    <div class="stars flex-row">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <span class="customers-count">120+ Customers</span>
+                </div>
+
+                <div class="cta-group flex-row align-center slide-up-4">
+                    <button class="btn-primary flex-row align-center flex-between">
+                        Chat With Us
+                        <span class="arrow-circle"><i class="fa-solid fa-arrow-right"></i></span>
+                    </button>
+                    <button class="btn-secondary glass-btn">
+                        Our Works
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-content-right">
+                
+                <div class="glass-feature-card slide-up-right">
+                    <div class="card-inner flex-row align-center">
+                        <div class="dark-square flex-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H10V10H4V4ZM14 4H20V10H14V4ZM4 14H10V20H4V14ZM14 14H20V20H14V14Z" />
+                            </svg>
+                        </div>
+                        <div class="card-text-content">
+                            <h3>Design to<br>explore.</h3>
+                            <div class="card-controls flex-row flex-between align-center mt-20">
+                                <div class="slider-track">
+                                    <div class="slider-thumb"></div>
+                                </div>
+                                <div class="nav-dots flex-row">
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-right-icon">
+                            <i class="fa-solid fa-circle-dot"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="partners-section fade-in-delay">
+                    <p class="partners-title text-right">Our Partners</p>
+                    <div class="partners-grid">
+                        <div class="partner-logo"><i class="fa-solid fa-l"></i><h1> Laravel 12</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-book"></i><h1> BookStore</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-v"></i><h1> VScode</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-a"></i><h1> Antigravity</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-f"></i><h1> Framer</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-c"></i><h1> Claude</h1></div>
+                        <div class="partner-logo"><i class="fa-solid fa-g"></i><h1> Github</h1></div>
+			<div class="partner-logo"><i class="fa-solid fa-r"></i><h1> Railway</h1></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+    </div>
+
+    <footer class="bottom-glass-bar flex-row flex-between align-center fade-in-bottom">
+            <div class="footer-left flex-row align-center">
+                <span class="bullet-point"></span>
+                <span>2+ Years Exp</span>
+            </div>
+            
+            <div class="footer-center flex-row align-center">
+                <span class="bullet-point"></span>
+                <span>Based in California</span>
+            </div>
+            
+            <div class="footer-right flex-row align-center">
+                <i class="fa-solid fa-arrow-down scroll-icon"></i>
+                <span>Scroll Down</span>
+            </div>
+        </footer>
+
+    </section>
+    <!-- ============================================================
+         PRODUCT SHOWCASE — fullscreen, standalone section, dark theme
+         Swap cover/avter2.png for real product photography whenever
+         it's ready; the thumbnails currently reuse it with CSS filters
+         as angle/colour stand-ins.
+    ============================================================ -->
+    <section class="product-section" id="product">
+
+        <div class="product-topbar flex-row flex-between align-center">
+            <a href="#home" class="crumb-home flex-row align-center">
+                <i class="fa-solid fa-arrow-left"></i>
+                <span>Home</span>
+            </a>
+
+            <div class="product-icons flex-row align-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </div>
+
+        <div class="product-subbar flex-row flex-between align-center">
+            <span class="subbar-item">
+                <i class="fa-solid fa-arrow-left small-icon"></i> On-Ear
+            </span>
+            <button class="subbar-item details-toggle" id="detailsToggle">
+                <span class="toggle-icon">+</span> Details
+            </button>
+        </div>
+
+        <div class="product-main-grid">
+
+            <div class="product-info">
+                <span class="product-tag reveal-from-left" style="--d:0s">Drop 001 / New</span>
+
+                <h2 class="product-title reveal-from-left" style="--d:0.08s">
+                    V-03<br>HEADPHONE
+                </h2>
+
+                <p class="product-desc" id="productDesc">
+                    The V-03 Headphones deliver premium, high-fidelity sound through precise, customizable audio adjustments.
+                </p>
+
+                <div class="product-selector reveal-from-left" style="--d:0.16s">
+                    <span class="selector-label">Size</span>
+                    <div class="option-row" id="sizeRow">
+                        <button class="option-btn">XS</button>
+                        <button class="option-btn active">S</button>
+                        <button class="option-btn">M</button>
+                        <button class="option-btn">L</button>
+                        <button class="option-btn">XL</button>
+                    </div>
+                </div>
+
+                <div class="product-selector reveal-from-bottom" style="--d:0.2s">
+                    <span class="selector-label">Colour</span>
+                    <div class="option-row" id="colourRow">
+                        <button class="option-btn active" data-colour="black">Black</button>
+                        <button class="option-btn" data-colour="white">White</button>
+                    </div>
+                </div>
+
+                <div class="product-purchase flex-row align-center flex-between reveal-from-bottom" style="--d:0.26s">
+                    <div class="price-block">
+                        <span class="price-label">Price</span>
+                        <span class="price-value">$129.00</span>
+                    </div>
+
+                    <button class="add-to-bag-btn" id="addToBagBtn">
+                        <span class="octagon-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        <span class="btn-label">Add to Bag</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-visual reveal-from-right" style="--d:0.1s">
+                <div class="product-photo-frame">
+                    <img src="product/hihi2.png" alt="Avterix V-03 Headphone — front view" class="product-photo-img" id="mainProductImg">
+                    <span class="photo-index">01 — 04</span>
+                </div>
+
+                <div class="product-thumbs" id="productThumbs">
+                        <img src="product/hihi.jpeg" alt="Angle 1 — black">
+                    </button>
+                    <button class="thumb-item">
+                        <img src="product/high.jpeg" alt="Angle 2 — white">
+                    </button>
+                    <button class="thumb-item">
+                        <img src="product/green.jpeg" alt="Angle 3 — detail">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-marquee" aria-hidden="true">
+    <div class="marquee-track">
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+        
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+    </div>
+
+    <div class="marquee-track">
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+        
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+
+        <span>V-03 HEADPHONE</span><span class="dot-sep">•</span>
+        <span>LIMITED DROP 001</span><span class="dot-sep">•</span>
+        <span>AVTERIX MERCH</span><span class="dot-sep">•</span>
+    </div>
+</div>
+    </section>
+
+    <!-- ============================================================
+         PROJECT SHOWCASE — fullscreen, standalone section, light theme
+         Same background/palette as #product & #brands. Cards sit in a
+         single row; hovering one expands it and collapses the rest,
+         same interaction language as the Fey "a few more things" panel.
+    ============================================================ -->
+    <section class="project-section" id="project">
+
+        <div class="brands-header project-header reveal-from-bottom">
+            <span class="brands-mini-title">// SELECTED WORK</span>
+            <h2 class="brands-title">A few of the projects we've shipped.</h2>
+            <p class="brands-subtitle">Hover a card to open it up — a quick look at products we've designed, built, and shipped for clients across industries.</p>
+        </div>
+
+        <div class="project-track reveal-scale" id="projectTrack">
+
+            <div class="project-card is-open" style="--tone-1:#000000; --tone-2:#000000;">
+                <div class="project-card-label"><span>Aventurra Studios</span></div>
+ 		<img src="project/avter.jpg" class="gambar-background" alt="Project Image">
+                <div class="project-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">Web &middot; Full Stack</span>
+                    <h3>Aventurra Studios"</h3>
+                    <p>An interactive website powered by GSAP that you can interact with directly.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card" style="--tone-1:#FF4A01; --tone-2:#FF4A01;">
+                <div class="project-card-label"><span>Technical Outwear</span></div>
+		<img src="project/ss.jpg" class="gambar-background" alt="Project Image">
+                <div class="project-card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">Web &middot; Mobile</span>
+                    <h3>SS20 Technical</h3>
+                    <p>Browse the SS20 collection with absolute speed, seamless scaling, and zero friction.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card" style="--tone-1:#0C0E0D; --tone-2:#5C6258;">
+                <div class="project-card-label"><span>Future Techwear</span></div>
+		<img src="project/tech.jpg" class="gambar-background" alt="Project Image">
+                <div class="project-card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">GSAP &middot; Dashboard</span>
+                    <h3>Cyberpunk Techwear</h3>
+                    <p>Real-time analytics of a website that can buy or even order an outfit directly from the website.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card" style="--tone-1:#D12229; --tone-2:#D12229;">
+                <div class="project-card-label"><span>Character Detail</span></div>
+		<img src="project/garou.jpg" class="gambar-background" alt="Project Image">
+                <div class="project-card-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">Character &middot; Showcasing</span>
+                    <h3 style="color: #ffffff;">Character Database</h3>
+                    <p style="color: #e8e9eb;">A website that showcase every detail of a character, either their abilities, stats, or even age.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card" style="--tone-1:#f2f0fb; --tone-2:#e1defa;">
+                <div class="project-card-label"><span>Nexus AI</span></div>
+                <div class="project-card-icon"><i class="fa-solid fa-robot"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">AI &middot; Integration</span>
+                    <h3>Nexus AI</h3>
+                    <p>A support assistant that plugs into existing helpdesk tools, resolving tickets before they reach a human.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card" style="--tone-1:#f8f5ec; --tone-2:#ece4cf;">
+                <div class="project-card-label"><span>Terra Estates</span></div>
+                <div class="project-card-icon"><i class="fa-solid fa-house"></i></div>
+                <div class="project-card-content">
+                    <span class="project-card-tag">Real Estate &middot; Marketplace</span>
+                    <h3>Terra Estates</h3>
+                    <p>A listings marketplace with map search, virtual tours, and a agent-facing CRM for lead management.</p>
+                    <a href="#" class="project-card-link">View case study <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+            </div>
+        </div>
+    </section>
+    <section class="brands-section" id="brands">
+
+<div class="brands-header reveal-from-bottom">
+
+    <span class="brands-mini-title">
+        // OUR PARTNERS
+    </span>
+
+    <h2 class="brands-title">
+        Trusted AI & Tech Ecosystem
+    </h2>
+
+    <p class="brands-subtitle">
+        Powered by industry-leading AI modern models.
+    </p>
+
+</div>
+        <div class="brands-container" id="brandsContainer">
+        <div class="orbital-system reveal-scale" id="orbitalSystem">
+            <div class="orbit-center">
+                <div class="ai-core-node">
+                    <img src="ai/ai.png" alt="AI Core" class="core-logo">
+                    <span class="pulse-ring"></span>
+                </div>
+            </div>
+
+            <div class="orbit-ring">
+    <div class="orbit-wrap" style="--angle: 0deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="ChatGPT" data-desc="Advanced conversational AI for complex problem solving and content generation." data-img="ai/gpt.png">
+                <img src="ai/gpt.png" alt="ChatGPT">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 45deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="Gemini" data-desc="Google's multimodal AI model designed for speed and information synthesis." data-img="ai/gemini.png">
+                <img src="ai/gemini.png" alt="Gemini">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 90deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="Claude" data-desc="Helpful, harmless, and honest AI assistant created by Anthropic." data-img="ai/claude.png">
+                <img src="ai/claude.png" alt="Claude">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 135deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="GitHub" data-desc="The world's leading platform for collaborative software development." data-img="ai/github.png">
+                <img src="ai/github.png" alt="GitHub">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 180deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="Framer" data-desc="Professional prototyping and no-code web design tool." data-img="ai/framer.png">
+                <img src="ai/framer.png" alt="Framer">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 225deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="Anti-AI" data-desc="Security and authentication solutions for AI-driven ecosystems." data-img="ai/anti.png">
+                <img src="ai/anti.png" alt="Anti">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 270deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="Vue.js" data-desc="Progressive JavaScript framework for building modern user interfaces." data-img="ai/vue.png">
+                <img src="ai/vue.png" alt="Vue">
+            </div>
+        </div>
+    </div>
+
+    <div class="orbit-wrap" style="--angle: 315deg;">
+        <div class="orbit-counter">
+            <div class="orbit-item" data-title="VS Code" data-desc="Lightweight but powerful source code editor for developers." data-img="ai/vs.png">
+                <img src="ai/vs.png" alt="VS Code">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="brands-stats reveal-from-left">
+    <div class="stat-item">
+        <div class="stat-number">
+            9+
+        </div>
+        <div class="stat-label">
+            Integrated AI
+        </div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">
+            100+
+        </div>
+        <div class="stat-label">
+            Projects
+        </div>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">
+            24/7
+        </div>
+        <div class="stat-label">
+            Availability
+        </div>
+</div>
+</section>
+
+    <div class="fullscreen-menu" id="fullscreenMenu">
+        <button class="close-menu-btn" id="closeMenuBtn"><i class="fa-solid fa-xmark"></i></button>
+        <ul class="menu-links-large">
+            <li><a href="#home" style="--i: 1;">Home</a></li>
+            <li><a href="#product" style="--i: 2;">Product</a></li>
+            <li><a href="#project" style="--i: 3;">Project</a></li>
+            <li><a href="#" style="--i: 4;">Workflow</a></li>
+            <li><a href="#" style="--i: 5;">Teams</a></li>
+            <li><a href="#" style="--i: 6;">Contacts</a></li>
+        </ul>
+    </div>
+    
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
